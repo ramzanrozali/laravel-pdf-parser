@@ -1,0 +1,24 @@
+{
+    "name": "ramzan/custom-tabula",
+    "description": "Custom package based on https://github.com/initred/laravel-tabula but will return result instead of save as file",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Ramzan\\CustomTabula\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ramzan\\CustomTabula\\CustomTabulaProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Ramzan",
+            "email": "ramzan.rozali@gmail.com"
+        }
+    ],
+    "require": {}
+}

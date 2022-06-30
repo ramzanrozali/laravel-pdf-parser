@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b47fa925ad7fa2edc67d6bb6c008a499",
+    "content-hash": "93f11f20a787248c8443fac69fca554c",
     "packages": [
         {
             "name": "brick/math",
@@ -894,6 +894,61 @@
             "time": "2022-06-20T21:43:11+00:00"
         },
         {
+            "name": "initred/laravel-tabula",
+            "version": "v3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/initred/laravel-tabula.git",
+                "reference": "2dd1c2a43fa6797e3f88cc735d3a686a22cbc2b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/initred/laravel-tabula/zipball/2dd1c2a43fa6797e3f88cc735d3a686a22cbc2b9",
+                "reference": "2dd1c2a43fa6797e3f88cc735d3a686a22cbc2b9",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": ">=6.0",
+                "php": ">=7.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "InitRed": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "initred",
+                    "email": "initred@gmail.com"
+                }
+            ],
+            "description": "laravel-tabula is a tool for liberating data tables trapped inside PDF files for the Laravel framework.",
+            "keywords": [
+                "csv",
+                "json",
+                "laravel",
+                "pdf",
+                "table",
+                "tabula",
+                "tsv"
+            ],
+            "support": {
+                "issues": "https://github.com/initred/laravel-tabula/issues",
+                "source": "https://github.com/initred/laravel-tabula/tree/v3.0"
+            },
+            "time": "2021-04-06T12:34:55+00:00"
+        },
+        {
             "name": "laravel/framework",
             "version": "v9.19.0",
             "source": {
@@ -1454,16 +1509,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "3.0.23",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "5b461a96d01144744077343908a2c196682c71e6"
+                "reference": "34a68067b7ae3b836ea5e57e1fc432478372a4f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/5b461a96d01144744077343908a2c196682c71e6",
-                "reference": "5b461a96d01144744077343908a2c196682c71e6",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/34a68067b7ae3b836ea5e57e1fc432478372a4f5",
+                "reference": "34a68067b7ae3b836ea5e57e1fc432478372a4f5",
                 "shasum": ""
             },
             "require": {
@@ -1524,7 +1579,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
-                "source": "https://github.com/thephpleague/flysystem/tree/3.0.23"
+                "source": "https://github.com/thephpleague/flysystem/tree/3.1.0"
             },
             "funding": [
                 {
@@ -1540,7 +1595,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-06-29T08:19:13+00:00"
+            "time": "2022-06-29T17:29:54+00:00"
         },
         {
             "name": "league/mime-type-detection",
@@ -1704,16 +1759,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.59.0",
+            "version": "2.59.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "9cea2f72585a46d0651ee6d4c8c8f752e78c16c6"
+                "reference": "a9000603ea337c8df16cc41f8b6be95a65f4d0f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/9cea2f72585a46d0651ee6d4c8c8f752e78c16c6",
-                "reference": "9cea2f72585a46d0651ee6d4c8c8f752e78c16c6",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/a9000603ea337c8df16cc41f8b6be95a65f4d0f5",
+                "reference": "a9000603ea337c8df16cc41f8b6be95a65f4d0f5",
                 "shasum": ""
             },
             "require": {
@@ -1802,7 +1857,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-06-26T20:26:59+00:00"
+            "time": "2022-06-29T21:43:55+00:00"
         },
         {
             "name": "nette/schema",
@@ -2734,6 +2789,39 @@
                 }
             ],
             "time": "2022-03-27T21:42:02+00:00"
+        },
+        {
+            "name": "ramzan/custom-tabula",
+            "version": "dev-phyton",
+            "dist": {
+                "type": "path",
+                "url": "packages/ramzan/custom-tabula",
+                "reference": "0374ea8f51193097bbf0f33c4115f81d829090ec"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Ramzan\\CustomTabula\\CustomTabulaProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Ramzan\\CustomTabula\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Ramzan",
+                    "email": "ramzan.rozali@gmail.com"
+                }
+            ],
+            "description": "Custom package based on https://github.com/initred/laravel-tabula but will return result instead of save as file",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "smalot/pdfparser",
@@ -7945,7 +8033,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "ramzan/custom-tabula": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
